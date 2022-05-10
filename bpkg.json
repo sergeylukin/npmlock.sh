@@ -1,0 +1,10 @@
+{
+  "name": "npmlock",
+  "version": "0.1.0",
+  "description": "Sets exact versions found in package-lock.json of NPM dependenciesin package.json",
+  "scripts": [ "npmlock.sh" ],
+  "install": "make install",
+  "commands": {
+    "lint": "shellcheck $BPKG_SCRIPT_SOURCES"
+  }
+}
